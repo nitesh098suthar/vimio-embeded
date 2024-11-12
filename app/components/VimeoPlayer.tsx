@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
           {
             headers: {
               //   Authorization: `Bearer ${process.env.VIMEO_ACCESS_TOKEN}`,
-              Authorization: "Bearer 83ca04cb5712b92328103640a4926682",
+              Authorization: "Bearer 78a42f1ebeccdc1a9ec6a27c48c8ea35",
             },
           }
         );

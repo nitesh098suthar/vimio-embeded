@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
         );
         const data = await response.json();
         console.log("data", data);
-        const videoData = data.data.map((video: any) => ({
+        const videoData = data?.data?.map((video: any) => ({
           player_embed_url: video.player_embed_url,
           name: video.name,
           uri: video.uri,
